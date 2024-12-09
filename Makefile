@@ -1,7 +1,7 @@
 all: cmpe431
 
 cmpe351:
-	gcc cmpe431.c -o cmpe431
+	gcc cmpe431.c -o cmpe431 -lpthread
 
 clean:
 	rm cmpe431
