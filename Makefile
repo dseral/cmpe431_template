@@ -1,10 +1,10 @@
-all: cmpe351
+all: cmpe431
 
 cmpe351:
-	gcc cmpe351.c -o cmpe351
+	gcc cmpe431.c -o cmpe431
 
 clean:
-	rm cmpe351
+	rm cmpe431
 
-test: cmpe351
+test: cmpe431
 	bash test.sh
